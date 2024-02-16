@@ -1,0 +1,107 @@
+body{
+    background-color: brown;
+    background-size: cover;
+}
+*{
+    border: 1px solid yellow;
+}
+.contactrow{
+    display: flex;
+    flex-direction: row;
+}
+.columnfirst{
+    display: flex;
+    flex-direction: column;
+}
+.columnsecond{
+    display: flex;
+    flex-direction: column;
+}
+.columnthird{
+    display: flex;
+    flex-direction: column;
+}
+.columnfourth{
+    display: flex;
+    flex-direction: column;
+}
+.instimg{
+    width: 40px;
+    height: auto;
+    align-self: center;
+}
+.insttext{
+    text-align: center;
+    color: rgb(187, 186, 186);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.insturl{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.insturl:hover{
+    color: rgb(152, 154, 155);
+}
+.tgimg{
+    width: 40px;
+    height: auto;
+    align-self: center;
+}
+.tgtext{
+    text-align: center;
+    color: rgb(187, 186, 186);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.tgurl{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tgurl:hover{
+    color: rgb(152, 154, 155);
+}
+.waimg{
+    width: 40px;
+    height: auto;
+    align-self: center;
+}
+.watext{
+    text-align: center;
+    color: rgb(187, 186, 186);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.waurl{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.waurl:hover{
+    color: rgb(152, 154, 155);
+}
+.mailimg{
+    width: 40px;
+    height: auto;
+    align-self: center;
+}
+.mailtext{
+    text-align: center;
+    color: rgb(187, 186, 186);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.mailurl{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mailurl:hover{
+    color: rgb(152, 154, 155);
+}

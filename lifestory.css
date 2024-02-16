@@ -1,0 +1,287 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+.Homepage{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 100px;
+    font-size: 60%;
+    position: relative;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.Homepage:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.Homepage:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 3px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.aboutme{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 200px;
+    font-size: 60%;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+}
+.aboutme:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.aboutme:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.lifestory{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 200px;
+    font-size: 60%;
+    position: relative;
+    cursor: pointer;
+}
+.lifestory:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.lifestory:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+.contacts{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 200px;
+    font-size: 60%;
+    position: relative;
+    cursor: pointer;
+}
+.contacts:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.contacts:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+/* Lifestory */
+.animation{
+    animation: anime 2s ease-out;
+}
+@keyframes anime{
+    from {
+        opacity: -20%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+.birth-cont{
+    display: flex;
+    padding: 50px 70px;
+}
+.babyphoto img{
+    border-radius: 5%;
+    border: 2px solid rgb(78, 78, 78);
+    box-shadow: 0 0 10px rgb(196, 194, 194);
+    width: 250px;
+    height: auto;
+}
+.babytext{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 90px 30px;
+    color: aliceblue;
+    text-shadow: 0 0 5px rgb(185, 185, 185);
+}
+.kid{
+    display: flex;
+    padding: 20px 70px;
+}
+.kidphoto img{
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid rgb(78, 78, 78);
+    box-shadow: 0 0 10px rgb(196, 194, 194);
+}
+.kidtext{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 120px 30px;
+    color: aliceblue;
+    text-shadow: 0 0 5px rgb(185, 185, 185);
+}
+.kid2{
+    display: flex;
+    padding: 20px 70px;
+}
+.kid2photo img{
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid rgb(78, 78, 78);
+    box-shadow: 0 0 10px rgb(196, 194, 194);
+}
+.kid2text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 120px 30px;
+    color: aliceblue;
+    text-shadow: 0 0 5px rgb(185, 185, 185);
+}
+.lyceum{
+    display: flex;
+    padding: 20px 70px;
+}
+.lyceumphoto img{
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid rgb(78, 78, 78);
+    box-shadow: 0 0 10px rgb(196, 194, 194);
+}
+.lyceumtext{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 120px 30px;
+    color: aliceblue;
+    text-shadow: 0 0 5px rgb(185, 185, 185);
+}
+.excellent{
+    display: flex;
+    padding: 20px 70px;
+}
+.excellentphoto img{
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid rgb(78, 78, 78);
+    box-shadow: 0 0 10px rgb(196, 194, 194);
+}
+.excellenttext{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 120px 30px;
+    color: aliceblue;
+    text-shadow: 0 0 5px rgb(185, 185, 185);
+}
+.certificate img{
+    float: right;
+    margin-left: 45px;
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid rgb(211, 208, 43);
+    box-shadow: 0 0 15px rgb(255, 251, 28);
+}
+.gym{
+    display: flex;
+    padding: 20px 70px;
+}
+.gymphoto img{
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid rgb(78, 78, 78);
+    box-shadow: 0 0 10px rgb(196, 194, 194);
+}
+.gymtext{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 120px 30px;
+    color: aliceblue;
+    text-shadow: 0 0 5px rgb(185, 185, 185);
+}
+.progress img{
+    float: right;
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid rgb(211, 208, 43);
+    box-shadow: 0 0 15px rgb(255, 251, 28);
+}
+.end{
+    display: column;
+    padding: 20px 140px;
+}
+.endphoto img{
+    border-radius: 10%;
+    border: 2px solid rgb(78, 78, 78);
+    box-shadow: 0 0 25px rgb(219, 218, 218);
+}
+.endtext{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(255, 240, 34);
+    text-shadow: 0 0 5px rgb(185, 185, 185);
+    font-size: 150%;
+}

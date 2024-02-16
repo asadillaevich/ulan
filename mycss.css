@@ -1,0 +1,732 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+*{
+    border: 0px solid red;
+}
+.menu-uu{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0;
+    background-image: url(background.jpg);
+    a {
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+    h1{
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+}
+.ulanbek1{
+    color: aliceblue;
+    position: relative;
+    cursor: pointer;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.ulanbek1:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.ulanbek1:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.ulanbek2{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60%;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+.ulanbek2:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.ulanbek2:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.ulanbek3{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 00px;
+    font-size: 60%;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+.ulanbek3:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.ulanbek3:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+.ulanbek4{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 00px;
+    font-size: 60%;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+.ulanbek4:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.ulanbek4:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+
+
+
+/* Homepage */
+
+
+.robot{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.circle1 img{
+    width: 450px;
+    height: auto;
+    border: solid 4px wheat;
+    border-radius: 50% ;
+    box-shadow: 0 0 15px wheat;
+    
+}
+.Elchibekov {
+    color: aliceblue;
+    text-shadow: 0 0 5px wheat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: fadetext 2s ease-out;
+    font-size: 80px;
+    margin: auto;
+}
+
+.zombie{
+    animation: fadecircle 2s ease-out;
+    background-image: url(background.jpg);
+}
+@keyframes fadecircle{
+    from {
+        opacity: -20%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+/* Homepage */
+
+
+/* About me */
+
+
+
+
+.ulan img{
+    width: 370px;
+    height: auto;
+    margin-left: 120px;
+    border: solid 3px rgb(45, 48, 9);
+    border-radius: 10px;
+    box-shadow:0 0 20px #ffffff;
+    float: left;
+    margin-top: 40px;
+}
+.name{
+    color: #ffe817;
+    font-size: 160%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 10px rgb(199, 199, 109);
+    -webkit-text-stroke: 0.15mm rgb(0, 0, 0);
+    margin-top: 40px;
+}
+.ulaninfo{
+    color: #dddbdb;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 195%;
+    text-shadow: 0 0 2px #ffffff;
+}
+.animationn{
+    animation: fadeimg 3s ease-out;
+    height: 100vh;
+    background-color: #0E0A0A   ;
+}
+
+.roww{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: auto;
+}
+.columnaboutme{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+@keyframes fadeimg{
+    from {
+        opacity: -20%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+/* Life Story */
+.animation{
+    animation: anime 2s ease-out;
+    background-color: #0E0A0A;
+}
+@keyframes anime{
+    from {
+        opacity: -20%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+.birth-cont{
+    display: flex;
+    padding: 50px 70px;
+}
+.babyphoto img{
+    border-radius: 5%;
+    border: 2px solid rgb(78, 78, 78);
+    box-shadow: 0 0 10px rgb(196, 194, 194);
+    width: 250px;
+    height: auto;
+}
+.babytext{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 90px 30px;
+    color: aliceblue;
+    text-shadow: 0 0 5px rgb(185, 185, 185);
+}
+.kid{
+    display: flex;
+    padding: 20px 70px;
+}
+.kidphoto img{
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid rgb(78, 78, 78);
+    box-shadow: 0 0 10px rgb(196, 194, 194);
+}
+.kidtext{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 120px 30px;
+    color: aliceblue;
+    text-shadow: 0 0 5px rgb(185, 185, 185);
+}
+.kid2{
+    display: flex;
+    padding: 20px 70px;
+}
+.kid2photo img{
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid rgb(78, 78, 78);
+    box-shadow: 0 0 10px rgb(196, 194, 194);
+}
+.kid2text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 120px 30px;
+    color: aliceblue;
+    text-shadow: 0 0 5px rgb(185, 185, 185);
+}
+.lyceum{
+    display: flex;
+    padding: 20px 70px;
+}
+.lyceumphoto img{
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid rgb(78, 78, 78);
+    box-shadow: 0 0 10px rgb(196, 194, 194);
+}
+.lyceumtext{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 120px 30px;
+    color: aliceblue;
+    text-shadow: 0 0 5px rgb(185, 185, 185);
+}
+.excellent{
+    display: flex;
+    padding: 20px 70px;
+}
+.excellentphoto img{
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid rgb(78, 78, 78);
+    box-shadow: 0 0 10px rgb(196, 194, 194);
+}
+.excellenttext{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 120px 30px;
+    color: aliceblue;
+    text-shadow: 0 0 5px rgb(185, 185, 185);
+}
+.certificate img{
+    float: right;
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid rgb(211, 208, 43);
+    box-shadow: 0 0 15px rgb(255, 251, 28);
+}
+.gym{
+    display: flex;
+    padding: 20px 70px;
+}
+.gymphoto img{
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid rgb(78, 78, 78);
+    box-shadow: 0 0 10px rgb(196, 194, 194);
+}
+.gymtext{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 120px 30px;
+    color: aliceblue;
+    text-shadow: 0 0 5px rgb(185, 185, 185);
+}
+.progresss img{
+    float: right;
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid rgb(211, 208, 43);
+    box-shadow: 0 0 15px rgb(255, 251, 28);
+}
+.endd{
+    display: column;
+    padding: 20px 170px;
+}
+.endphoto img{
+    border-radius: 10%;
+    border: 2px solid rgb(78, 78, 78);
+    box-shadow: 0 0 25px rgb(219, 218, 218);
+}
+.endtext{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(255, 240, 34);
+    text-shadow: 0 0 5px rgb(185, 185, 185);
+    font-size: 150%;
+}
+
+/* Life Story */
+
+ /* Contacts */
+
+ .contacttext{
+    color: #ffe817;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 5px rgb(211, 255, 14);
+    text-decoration:overline rgb(211, 255, 14);
+}
+.questions{
+    color: rgb(218, 218, 218);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contactrow{
+    display: flex;
+    flex-direction: row;
+}
+.columnfirst{
+    display: flex;
+    flex-direction: column;
+}
+.columnsecond{
+    display: flex;
+    flex-direction: column;
+}
+.columnthird{
+    display: flex;
+    flex-direction: column;
+}
+.columnfourth{
+    display: flex;
+    flex-direction: column;
+}
+.instimg{
+    width: 40px;
+    height: auto;
+    align-self: center;
+}
+.insttext{
+    text-align: center;
+    color: rgb(187, 186, 186);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.insturl{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.insturl:hover{
+    color: rgb(152, 154, 155);
+}
+.tgimg{
+    width: 40px;
+    height: auto;
+    align-self: center;
+}
+.tgtext{
+    text-align: center;
+    color: rgb(187, 186, 186);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.tgurl{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tgurl:hover{
+    color: rgb(152, 154, 155);
+}
+.waimg{
+    width: 40px;
+    height: auto;
+    align-self: center;
+}
+.watext{
+    text-align: center;
+    color: rgb(187, 186, 186);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.waurl{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.waurl:hover{
+    color: rgb(152, 154, 155);
+}
+.mailimg{
+    width: 40px;
+    height: auto;
+    align-self: center;
+}
+.mailtext{
+    text-align: center;
+    color: rgb(187, 186, 186);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.mailurl{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mailurl:hover{
+    color: rgb(152, 154, 155);
+}
+.animationnn{
+    animation: animate 2s ease-out;
+    height: 100vh;
+    background-color: #0E0A0A;
+}
+@keyframes animate{
+    from {
+        opacity: -20%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+.aboutmee h1{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 60px;
+    color: #ffe817;
+    padding: -5px 0px;
+}
+.mylifestory{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 130%;
+    color: #ffe817;
+}
+html{
+    scroll-behavior: smooth;
+}
+.upwards{
+    font-size: 300%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10%;
+    background-color: #79744170;
+    float: right;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 0px) and (max-width: 544px) {
+    .menu-uu h1{
+        font-size:16px ;
+    }
+    .contactrow{
+        flex-direction: column;
+    }
+    .robot{
+        flex-direction: column;
+    }
+    .circle1 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 230px;
+        height: auto;
+    }
+    .aboutmee h1{
+        font-size: 35px;
+    }
+    .Elchibekov{
+        font-size: 40px;
+    }
+    .gym{
+        flex-direction: column;
+    }
+    .excellent{
+        flex-direction: column;
+    }
+    .roww{
+        flex-direction: column;
+    }
+    .ulan img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px;
+        height: auto; 
+    }
+    .ulaninfo{
+        font-size: 110%;
+        text-align: left;
+    }
+    .name h1{
+        font-size: 140%;
+        text-align: left;
+    }   
+    .birth-cont{
+        flex-direction: column;
+    }
+    .babytext{
+        padding: 20px 1px;
+    }
+    .kid{
+        flex-direction: column;
+    }
+    .kidtext{
+        padding: 20px 1px;
+    }
+    .kid2{
+        flex-direction: column;
+    }
+    .kid2text{
+        padding: 20px 1px;
+    }
+    .lyceum{
+        flex-direction: column;
+    }
+    .lyceumtext{
+        padding: 20px 1px;
+    }
+    .excellenttext{
+        padding: 20px 1px;
+    }
+    .gymtext{
+        padding: 20px 1px;
+    }
+}
+@media (min-width: 544px) and (max-width: 768px) {
+    .menu-uu h1{
+        font-size:17px ;
+    }
+    .robot{
+        flex-direction: column;
+    }
+    .circle1 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 270px;
+        height: auto;
+    }
+    .Elchibekov{
+        font-size: 40px;
+    }
+    .contactrow{
+        flex-direction: column;
+    }
+    .gym{
+        flex-direction: column;
+    }
+    .excellent{
+        flex-direction: column;
+    }
+    .ulan img{
+        margin-left: 20px;
+        width: 220px;
+        height: auto; 
+    }
+    .ulaninfo{
+        font-size: 140%;
+        text-align: left;
+    }
+    .name h1{
+        font-size: 170%;
+        text-align: left;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .menu-uu h1{
+        font-size:20px ;
+    }
+    .robot{
+        flex-direction: column;
+    }
+    .circle1 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: auto;
+    }
+    .ulan img{
+        margin-left: 40px;
+        width: 320px;
+        height: auto; 
+    }
+    .ulaninfo{
+        font-size: 180%;
+        text-align: left;
+    }
+    .name h1{
+        font-size: 220%;
+        text-align: left;
+    }
+    .contactrow{
+        flex-direction: column;
+    }
+    .gym{
+        flex-direction: column;
+    }
+    .excellent{
+        flex-direction: column;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .menu-uu h1{
+        font-size:25px ;
+    }
+    .Elchibekov {
+        font-size: 67px;
+    }
+    .circle1 img{
+        width: 360px;
+        height: auto;
+    }
+    .ulan img{
+        width: 300px;
+        height: auto;
+    }
+    .ulaninfo{
+        font-size: 150%;
+    }
+    .roww{
+        margin: auto;
+    }
+}
